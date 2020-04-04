@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="custom.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+  <form id="form" action="about.html" method="GET">
+      <h1>Login</h1>
+      <div class="error"></div>
+      <div class="textbox">
+        <label for="username">Username</label>
+        <input type="text" placeholder="username" name="username" id="username" required><br><br>
+    </div>
+    <div class="textbox">
+      <label for="password">Password</label>
+      <input type="password" placeholder="password" name="password" id="password" required>
+      <div class="">
+        <input type="checkbox" name="" value="" id="show">
+        <label for="show">Show Password</label>
+      </div>
+    </div>
+    <button id="btn" type="submit" class="btn btn-info">Sign in</button>
+  </form>
+  </body>
+</html>

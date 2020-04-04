@@ -1,0 +1,5 @@
+{
+  "browser": "chrome",
+  "entry-file": "login.html",
+  "root": "js"
+}
