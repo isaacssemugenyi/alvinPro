@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.success, .error {
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px;
+}
+.success {
+    background: green;
+}
+.error{
+    background: red;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table td, th {
+    border: 1px solid black;
+    padding: 4px 6px;
+}
+
+

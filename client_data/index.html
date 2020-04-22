@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <form class="add-client">
+        <div>
+            <input type="text" placeholder="Full names" name="name" autocomplete="off">
+        </div><br>
+        <div>
+            <input type="number" placeholder="Phone Number" name="number">
+        </div><br>
+        <div>
+            <input type="number" placeholder="Down Payment" name="payment">
+        </div><br>
+        <div>
+            <input type="text" placeholder="Vehicle type" name="vehicle" autocomplete="off">
+        </div><br>
+        
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <td>Full Name</td>
+                    <td>Phone Number</td>
+                    <td>Down Payment</td>
+                    <td>Vehicle Type</td>
+                    <td>CustomerId</td>
+                </tr>
+            </thead>
+            <tbody class="clients">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

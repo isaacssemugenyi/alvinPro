@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="script2.js"></script>
+   <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add Client</h1>  
+        <form id="client-form">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" autocomplete="off">
+            </div><br>
+            <div>
+                <label for="nationality">Nationality</label>
+                <input type="text" id="nationality" autocomplete="off">
+            </div><br>
+            <div>
+                <label for="vehicle">Vehicle</label>
+                <input type="text" id="vehicle" autocomplete="off">
+            </div><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Nationality</th>
+                    <th>Vehicle</th>
+                    <th>ID</th>
+                </tr>
+            </thead>
+            <tbody id="client-list">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
